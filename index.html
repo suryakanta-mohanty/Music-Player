@@ -21,15 +21,15 @@
         <P class="music-author">NEFFEX</P>
       </div>
 
-      <audio src="./audio/Go! - NEFFEX.mp3" controls type="audio/mpeg"></audio>
+      <audio src="./audio/Go! - NEFFEX.mp3"  id="song" type="audio/mpeg"></audio>  <!-- take out the control -->
       <input type="range" value="0" id="progress">
 
       <div class="player-mode">
         <div class="skip">
           <i class="fa-solid fa-backward"></i>
         </div>
-        <div class="play-paush">
-          <i class="fa-solid fa-pause"></i>
+        <div class="play-paush" onclick="playPaush()">
+          <i class="fa-solid fa-play" id="ctrlIcon" ></i>
         </div>
         <div class="skip">
           <i class="fa-solid fa-forward"></i>
