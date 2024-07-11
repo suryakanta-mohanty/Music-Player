@@ -125,8 +125,25 @@
   color: white;
 }
 
-.container input{
+.container audio, .container input{
   width: 100%;
   margin-bottom: 20px;
 
+}
+
+#progress{
+  -webkit-appearance: none;
+  height: 6px;
+  background: #ff3392;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#progress::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  background-color: #f53192;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 5px solid #fff;
 }
